@@ -56,24 +56,6 @@ footer {
     gap: 0.75em;
     max-width: 35%;
 }
-
-.hero-content > .left-content > .section-name {
-    font-weight: 700;
-    font-size: 0.8em;
-    line-height: 1em;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: white;
-}
-
-.hero-content > .left-content > .main-title {
-    font-family: 'Crimson Text', serif;
-    font-size: 2em;
-    font-weight: 700;
-    line-height: 1.2em;
-    color: white;
-}
-
 .hero-content > .left-content > .main-description {
     font-size: 0.75em;
     font-weight: 400;
@@ -86,4 +68,38 @@ footer {
 
 .hero-content > .right-content > img {
     width: 100%;
+}
+
+.partners {
+    flex-direction: column;
+    align-items: center;
+    margin: 3em auto;
+    gap: 0.75em;
+}
+
+.partners > .section-name {
+    color: var(--main-color);
+}
+
+.partners > .section-title {
+    color: black;
+}
+
+.partners > .section-description {
+    max-width: 20em;
+    text-align: center;
+}
+
+.partners-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 0;
+    gap: 3em;
+}
+
+.partners > .btn {
+    background-color: black;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }

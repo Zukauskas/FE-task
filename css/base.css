@@ -16,6 +16,24 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.section-name {
+    font-weight: 700;
+    font-size: 0.8em;
+    line-height: 1em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: white;
+}
+
 .btn {
     text-decoration: none;
     font-weight: 400;
