@@ -124,3 +124,46 @@ footer {
 .footer-section > .copyright {
     color: white;
 }
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 400px) {
+    .header-container,
+    .hero-content,
+    .partners,
+    .footer-section {
+        max-width: 345px;
+    }
+
+    .main-navigation {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: inline-block;
+        font-size: 2em;
+        color: white;
+        align-self: center;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+    }
+
+    .hero-content > .left-content,
+    .hero-content > .right-content {
+        max-width: 100%;
+    }
+
+    .partners-box {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+}
