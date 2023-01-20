@@ -15,3 +15,15 @@ body {
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
 }
+
+.btn {
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.25em;
+    text-align: center;
+    width: fit-content;
+    padding: 0.5em 2.25em;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}

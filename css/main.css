@@ -13,8 +13,8 @@ footer {
 .footer-section {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .header-container {
@@ -28,9 +28,9 @@ footer {
 }
 
 .logo-side > .logo-name {
-    color: white;
     font-size: 40px;
     font-weight: 500;
+    color: white;
 }
 
 .main-navigation {
@@ -40,7 +40,50 @@ footer {
 }
 
 .main-navigation > .nav-link {
+    font-weight: 400;
     text-decoration: none;
     color: white;
+}
+
+.main-content > .hero {
+    padding-bottom: 4em;
+}
+
+.hero-content > .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75em;
+    max-width: 35%;
+}
+
+.hero-content > .left-content > .section-name {
+    font-weight: 700;
+    font-size: 0.8em;
+    line-height: 1em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero-content > .left-content > .main-title {
+    font-family: 'Crimson Text', serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: white;
+}
+
+.hero-content > .left-content > .main-description {
+    font-size: 0.75em;
     font-weight: 400;
+    color: white;
+}
+
+.hero-content > .right-content {
+    max-width: 60%;
+}
+
+.hero-content > .right-content > img {
+    width: 100%;
 }
