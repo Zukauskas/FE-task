@@ -1,2 +1,46 @@
 @import '../css/base.css';
 @import '../css/font-awesome.min.css';
+
+header,
+.hero,
+footer {
+    background-color: var(--main-color);
+}
+
+.header-container,
+.hero-content,
+.partners,
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    padding: 35px 0;
+}
+
+.header-container > .logo-side {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo-side > .logo-name {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.main-navigation > .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
