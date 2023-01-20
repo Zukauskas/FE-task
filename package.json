@@ -1,0 +1,24 @@
+{
+    "name": "fe-task",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "dead-server --host=localhost --port=41069",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zukauskas/FE-task.git"
+    },
+    "keywords": [],
+    "author": "Tautvydas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Zukauskas/FE-task/issues"
+    },
+    "homepage": "https://github.com/Zukauskas/FE-task#readme",
+    "devDependencies": {
+        "dead-server": "^1.0.9"
+    }
+}
