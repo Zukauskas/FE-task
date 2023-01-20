@@ -103,3 +103,24 @@ footer {
     padding-left: 1.5em;
     padding-right: 1.5em;
 }
+
+.footer-section {
+    padding-top: 2.25em;
+    padding-bottom: 2em;
+}
+
+.footer-section > .socials {
+    display: flex;
+    gap: 1em;
+}
+
+.footer-section > .socials > .social-icon {
+    text-decoration: none;
+    font-size: 1.1em;
+    line-height: 0.9em;
+    color: white;
+}
+
+.footer-section > .copyright {
+    color: white;
+}
